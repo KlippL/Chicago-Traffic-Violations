@@ -9,6 +9,7 @@ Then the first round of data visualizations were intended to explore the data se
 
 ### Data Exploration
 
-![Data Exploration](https://public.tableau.com/views/Speed_Violations/TrafficCameraDataExploration?:embed=y&:display_count=yes)
+![Data Exploration](Daily_Speed_Trap_Violations.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Speed_Violations/TrafficCameraDataExploration
 
 ### Final Data Visualizations
