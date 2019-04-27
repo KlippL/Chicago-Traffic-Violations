@@ -25,5 +25,17 @@ https://public.tableau.com/profile/laura.klipp#!/vizhome/Speed_Violations/Traffi
 
 Since the daily violations over time show a lot of noise. My next visualization shows the same number of violations, but at a weekly level for a smoother graph. While it is clear to see the downward trend over time, there is still a lot of  seasonality to this data and therefore adding a trendline shows the decrease more clearly.  
 
+![Violations Over Time](weekly_time_trend.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
+
+While many factors could effect the declining number of violations over time, the intended outcome was for people to stope speeding through children's safety zones. One way to see that is to see how the number of violations per camera changes over time, to ensure that it wasn't a decreased number of cameras causing a decrease in violations. Making a calculation of the average number of violations per unique camera ID we see that there is also a decline in the average violations for each camera over time. 
+
+![Violations Per Camera ID](per_cam_violations.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
+
+
+![Crime and Violation Correlation](correlation.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
+
 ![Chicago_police](Police_Expediture.png)
 https://www.forbes.com/sites/niallmccarthy/2017/08/07/how-much-do-u-s-cities-spend-every-year-on-policing-infographic/#17321124e7b7
