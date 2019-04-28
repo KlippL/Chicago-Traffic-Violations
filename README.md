@@ -33,9 +33,15 @@ While many factors could effect the declining number of violations over time, th
 ![Violations Per Camera ID](per_cam_violations.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
 
+As mentioned above, the next goal was to look at the correlation between the amount of crime and the number of speeding violations there were in the same location. Based on this analysis, it seems that the higher average quantity of speeding violations in a given area is in lower crime areas and that higher crime areas have fewer violations on average. 
 
-![Crime and Violation Correlation](correlation.png)
+![Crime and Violation Correlation](correlations.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
+
+This finding is interesting due to Chicago being one of the cities with the highest amount spent on their police department as well as one of the cities with the highest proportion of their budget spent on their police department. 
 
 ![Chicago_police](Police_Expediture.png)
 https://www.forbes.com/sites/niallmccarthy/2017/08/07/how-much-do-u-s-cities-spend-every-year-on-policing-infographic/#17321124e7b7
+
+Chicago is rated the 21st most dangerous city in America according to USA Today, which means that the police have a more important job to do involving more violent crime instead spending time giving out traffic citations. All cities use driving violations to increase their revenue, and in higher crime areas, the choice would need to be made either to increase their police force to maintain the ability to handle both traffic violations and address criminal activity, or loose the ability to do both effectively. The speeding cameras allow for Chicago to maintain revenue streams from traffic violations as well as decrease the number of citizens speeding in children's safety zones, as well as allowing cops to focus on higher crime areas. Due to the effectiveness of this program, the mayor should consider increasing the number of cameras in additional children's safety zones. 
+https://www.usatoday.com/picture-gallery/travel/experience/america/2018/10/17/25-most-dangerous-cities-america/1669467002/
