@@ -7,7 +7,7 @@ Then the first round of data visualizations was intended to explore the data set
 
 ### Data Set Information
 
-The Chicago Speed Camera Violations dataset contains the number of traffic violations that occured over time from July 1, 2014, through April 10, 2019. The violations in the dataset reflect all instances collected by the camera's radar system that have been viewed by two individual city contractors, including instances not resulting in a citation.
+The Chicago Speed Camera Violations dataset contains the number of traffic violations that occurred over time from July 1, 2014, through April 10, 2019. The violations in the dataset reflect all instances collected by the camera's radar system that have been viewed by two individual city contractors, including instances not resulting in a citation.
 
 In an effort to increase the safety for children in the City of Chicago, speed cameras were installed in key children’s safety zones around schools and parks. School zones have active cameras Monday through Friday from  7 am to 4 pm when children are present, whereas cameras near parks are active 365 days per year, generally from 6 am until 11 pm. Fines for violations 10 miles per hour (MPH) or less is $35.00, and violations 11 MPH and over is $100.
 https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html
@@ -23,7 +23,7 @@ The first stage of data exploration lead to the discovery that the number of vio
 ![Data Exploration](Daily_Speed_Trap_Violations.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Speed_Violations/TrafficCameraDataExploration
 
-Since the daily violations over time show a lot of noise. My next visualization shows the same number of violations, but at a weekly level for a smoother graph. While it is clear to see the downward trend over time, there is still a lot of  seasonality to this data and therefore adding a trendline shows the decrease more clearly. The final visualization shows the a 2 month moving average to further smooth out the declining trend in violations per month over time. 
+Since the daily violations over time show a lot of noise. My next visualization shows the same number of violations, but at a weekly level for a smoother graph. While it is clear to see the downward trend over time, there is still a lot of  seasonality to this data and therefore adding a trendline shows the decrease more clearly. The final visualization shows a 2 month moving average to further smooth out the declining trend in violations per month over time. 
 
 ![Violations Over Time](weekly_time_trend.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
@@ -31,15 +31,18 @@ https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/Decreasi
 ![Violations Over Time](monthly_violations_smoothed.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor_v2/DecreasingViolations
 
-While many factors could affect the declining number of violations over time, the intended outcome was for people to stope speeding through children's safety zones. One way to see that is to see how the number of violations per camera changes over time, to ensure that it wasn't a decreased number of cameras causing a decrease in violations. Making a calculation of the average number of violations per unique camera ID we see that there is also a decline in the average violations for each camera over time. 
+While many factors could affect the declining number of violations over time, the intended outcome was for people to stope speeding through children's safety zones. One way to see that is to see how the number of violations per camera changes over time, to ensure that it wasn't a decreased number of cameras causing a decrease in violations. Making a calculation of the average number of violations per unique camera ID helps us to see that there is also a decline in the average violations for each camera over time. The second version of this graph shows a smoothed 2 month moving average of the mean number of violations per month over time. 
 
 ![Violations Per Camera ID](per_cam_violations.png)
 https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
 
+![Violations Per Camera ID](per_cam_violations_2.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor_v2/DecreasingViolations
+
 As mentioned above, the next goal was to look at the correlation between the amount of crime and the number of speeding violations there were in the same location. Based on this analysis, it seems that the higher average quantity of speeding violations in a given area is in lower crime areas and that higher crime areas have fewer violations on average. 
 
-![Crime and Violation Correlation](correlations.png)
-https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor/DecreasingViolations
+![Crime and Violation Correlation](correlation_2.png)
+https://public.tableau.com/profile/laura.klipp#!/vizhome/Data_for_Mayor_v2/DecreasingViolations
 
 This finding is interesting due to Chicago being one of the cities with the highest amount spent on their police department as well as one of the cities with the highest proportion of their budget spent on their police department. 
 
