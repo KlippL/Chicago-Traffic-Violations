@@ -1,9 +1,10 @@
 # Chicago-Traffic-Violations
 
 ### Project Overview
-The goal was to create a set of visualizations about the traffic cameras in Chicago intended for the Mayor of Chicago. The project included downloading the data from the City of Chicago's Website and understanding the information from the data: https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data. 
 
-Then the first round of data visualizations was intended to explore the data set using Tableau and then to further develop a deeper analysis based on that exploration. 
+The goal was to create a set of visualizations for Dashboards and Visualization class about the traffic cameras in Chicago intended for the Mayor of Chicago. The project included downloading the data from the City of Chicago's Website and understanding the information from the data: https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data. 
+
+The first round of data visualizations was intended to explore the data set using Tableau and then to further develop a deeper analysis based on that exploration. 
 
 Data Exploration: https://public.tableau.com/profile/laura.klipp#!/vizhome/Speed_Violations/TrafficCameraDataExploration
 
